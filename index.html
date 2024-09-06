@@ -5,56 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>olimpíadas</title>
+    <title>Olimpíadas</title>
 </head>
 
 <body>
     <header>
-       
-        <h1>Tudo sobre a Bíblia</h1>
+        <h1>Os 12 Apostolos</h1>
     </header>
     <main>
         <section>
-        <input type="text" placeholder="Digite o nome do atleta">
-        <button>Pesquisar</button>
-    </section>
-    <section class="resultados-pesquisa">
-        <div class="item-resultado">
-            <h2>
-                <a href="#" target="_blank">Jesus Cristo</a>
-            </h2>
-            <p class="descricao-meta">Jesus pregava o amor ao próximo, a compaixão, o perdão e a busca por um reino de Deus na terra. Sua morte na cruz e ressurreição são eventos cruciais para a fé cristã, representando a salvação da humanidade. A figura de Jesus continua a inspirar e a ser objeto de estudo e debate até os dias de hoje.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Jesus" target="_blank">Mais Informções</a>
-        </div>
-
-        <div class="item-resultado">
-            <h2>
-                <a href="#" target="_blank">Apostolo João</a>
-            </h2>
-            <p class="descricao-meta">O Apóstolo João: O Discípulo Amado
-                João, o Evangelista, foi um dos doze apóstolos de Jesus e é frequentemente identificado como "o discípulo amado" nos Evangelhos. Ele era conhecido por sua proximidade com Jesus e por sua natureza contemplativa.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Jo%C3%A3o,_o_Ap%C3%B3stolo" target="_blank">Mais Informções</a>
-        </div>
-
-        <div class="item-resultado">
-            <h2>
-                <a href="#" target="_blank">Apostolo Paulo</a>
-            </h2>
-            <p class="descricao-meta">O Apóstolo Paulo: Um Pilar do Cristianismo
-                Paulo de Tarso é uma figura fundamental para o cristianismo. Convertido ao cristianismo após uma experiência mística no caminho para Damasco, ele se tornou um dos principais pregadores e teólogos da religião.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/Paulo_de_Tarso" target="_blank">Mais Informções</a>
-        </div>
-        
-    </section>
+            <input type="text" placeholder="Digite o nome do Apostolo de Jesus" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
     </main>
     <footer>
-        <p>2024 - Bíblia sagrada. Todos os direitos reservados a Jesus</p>
-        <p>Entre em contato Através de oração</p>
+        <p>2024 - Apostolos de Jesus. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: rodrigopimentel.lima/@hotmail.com</p>
     </footer>
-    <script src="./app.js"></script>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
